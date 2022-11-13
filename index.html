@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title class="title">Daria Morgendorffer</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <!-- Barra de navegación con links a cada elemento del portfolio -->
+        <nav class="navbar">
+            <img class="logo" src="https://i.pinimg.com/originals/0a/03/f6/0a03f624f53c82d2be69d3ecccb9b26a.png" alt="Logo de Daria Morgendorffer">
+            <ul class="menu">
+                <li>
+                    <a href class="link-menu"="#">Proyectos</a>
+                </li>
+                <li>
+                    <span class="separador">|</span> <a href class="link-menu"="#">Skills</a>
+                </li>
+                <li>
+                    <span class="separador">|</span> <a href class="link-menu"="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Etiqueta cabecera -->
+        <header class="header">
+            <hgroup>
+                <h1 class="title">Daria Morgendorffer</h1>
+            </hgroup>
+        </header>
+        <!-- Main -->
+        <main>
+            <section>
+                <article>
+                <h3>Sobre mí:</h3>
+                <p>Me llamo Daria, tengo 18 años y soy una chica inteligente, sarcástica, sensible, honesta y con ningún interés de satisfacer a nadie más que a mí. Soy la hija mayor en la familia Morgendorffer, e hija de Jake y Helen.</p>
+                </article>
+            </section>
+            <!-- Sección de skills y progreso de las mismas -->
+            <div class="container-skills">
+                <h3>Skills</h3>
+                <span>Sarcasmo</span>
+                <div class="skills">
+                    <div class="progress-skills" id="sarcasm"></div>
+                </div>
+                <span>Creatividad</span>
+                <div class="skills">
+                    <div class="progress-skills" id="creativity"></div>
+                </div>
+                <span>Audacia</span>
+                <div class="skills">
+                    <div class="progress-skills" id="audacity"></div>
+                </div>
+                <span>Honestidad</span>
+                <div class="skills">
+                    <div class="progress-skills" id="honesty"></div>
+                </div>
+              </div>
+            <!-- Formulario de contacto con los inputs indicados -->
+            <form class="contact" action="#" method="post">
+                <fieldset class="personal-details">
+                    <legend>Formulario de contacto</legend>
+                    <div>
+                        <label for="name">Nombre</label>
+                        <input required id="name" name="name" type="text" placeholder="Añade tu nombre"/>
+                    </div>
+                    <div>
+                        <label for="surnames">Apellidos</label>
+                        <input required id="surnames" type="text" placeholder="Añade tus apellidos"/>
+                    </div>
+                    <div>
+                        <label for="phone">Teléfono</font-weight: bold;
+                            font-size: 18px;label>
+                        <input required id="phone" type="tel" placeholder="Añade tu teléfono"/>
+                    </div>
+
+                    <div>
+                        <label for="ghTag">GitHub Username</label>
+                        <input required id="ghTag" type="text" pattern="^@[A-Za-z0-9-]+$" placeholder="@username"/>
+                    </div>
+                </fieldset>
+
+                <fieldset class="meet">
+                    <legend>¿Cómo me conociste?</legend>
+
+                    <label for="university">Universidad</label>
+                    <input required id="university" type="radio" name="site" value="university">
+
+                    <label for="keepCoding">KeepCoding kick-off</label>
+                    <input required id="keepCoding" type="radio" name="site" value="keepCoding">
+
+                    <label for="college">Colegio</label>
+                    <input  required id="college" type="radio" name="site" value="college">
+
+                    <label for="gitHub">GitHub</label>
+                    <input  required id="gitHub" type="radio" name="site" value="gitHub">
+                </fieldset>
+
+                <fieldset class="description">
+                    <h3><labelfor="description">Descripción:</label></h3>
+                    <textarea required id="description" name="description" rows="6" cols="40" maxlength="180">Añade más información aquí. (Max 180 carácteres)</textarea>
+                </fieldset>
+                <input type="submit" name="submit" value="Enviar">
+            </form>
+        </main>
+        <!-- pie de página -->
+        <footer class="footer">
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Daria" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/2244px-Wikipedia-logo-v2.svg.png" alt="Ícono de acceso a Wikipedia"/></a>
+
+	            <a href="https://www.youtube.com/watch?v=Yu_Rxqtq3ng&list=PLzRbLHpJu9K0M8KBFaKKYBRMginu2rNl5" target="_blank"><img src="https://www.clipartmax.com/png/full/134-1347619_youtube-logo-round-png-youtube-icon-circle-png.png" alt="Ícono de acceso a Youtube"/></a>
+
+	            <a href="https://www.imdb.com/title/tt0118298/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968612.png" alt="Ícono de acceso a IMDB"/></a>
+            </div>
+        </footer>
+    </body>
+</html>
